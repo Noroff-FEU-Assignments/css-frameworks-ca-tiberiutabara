@@ -1,0 +1,45 @@
+
+.contact{
+    margin: 4em 0;
+}
+
+/* Details */
+
+.contact-details{
+    color: $text-grey;
+    margin-bottom: 3em;
+
+    i{
+        margin-right: 1rem;
+        font-size: 24px;
+    }
+}
+
+/* Contact Form */
+
+.contact form{
+    color: $text-grey;
+
+    .form-group, .form-check{
+        margin-bottom: 1em;
+    }
+
+    .form-check input{
+        background: $main;
+        border: none;
+    }
+
+    textarea{
+        resize: none;
+    }
+
+    .btn{
+        background: $text-grey;
+        width: 100%;
+
+        &:hover{
+            color: #fff;
+            background: $main;
+        }
+    }
+}

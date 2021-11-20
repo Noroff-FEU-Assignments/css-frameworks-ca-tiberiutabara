@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $bg-white !important;
+    font-family: $font-basic;
+}
+
+h1{
+    font-size: 32px;
+    font-family: $font-special;
+    color: $main;
+    margin-top: 1.5em;
+    margin-bottom: .5em;
+}
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Nav */
+
+.navbar-brand{
+    font-family: $font-special;
+    font-style: italic;
+    font-size: 24px;
+    color: $main;
+
+    &:hover{
+        color: $main;
+    }
+}
+
+.nav-item a{
+    font-family: $font-basic;
+    font-size: 15px;
+    color: $text-black;
+    margin-left: 1rem;
+
+    &:hover{
+        color: $main;
+    }
+}
+
+form{
+    .form-control{
+        border: none;
+        border-radius: 0;
+        position: relative;
+        left: 11px;
+    }
+    
+    .btn{
+        background: $main;
+        border: none;
+        color: #fff;
+
+        &:hover{
+            background: $main;
+        }
+    }
+}
+
+.navbar-toggler{
+    color: $main;
+
+    &:focus{
+        box-shadow: none;
+    }
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: $text-grey;
+    margin: 4em 0 1em 0;
+
+    i{
+        font-size: 26px;
+        margin-right: 1rem;
+    }
+}

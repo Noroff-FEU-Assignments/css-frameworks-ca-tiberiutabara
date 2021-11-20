@@ -1,0 +1,41 @@
+/* Button groups */
+
+.btn-group{
+
+    margin: 1em 0 2em 0;
+
+    .btn{
+        border: 1px solid $main;
+        color: $main;
+    }
+
+    .active{
+        background-color: $main;
+        color: #fff;
+    }
+}
+
+/* Cards */
+
+.cards{
+    @extend .shadow;
+    margin-bottom: 2em;
+}
+
+.card{
+    border: none;
+    margin-bottom: 3em;
+
+    p{
+        color: $text-grey;
+    }
+
+    .btn{
+        display: block;
+        margin: 0 auto !important;
+        border-radius: 5px;
+        background: $main;
+        color: #fff;
+        width: 100%;
+    }
+}

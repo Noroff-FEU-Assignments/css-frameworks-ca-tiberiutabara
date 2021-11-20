@@ -1,0 +1,309 @@
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #EFEFEF !important;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  color: #E92569;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+
+.shadow, .tab-content, .cards {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Nav */
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #E92569;
+}
+
+.navbar-brand:hover {
+  color: #E92569;
+}
+
+.nav-item a {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #0A0A0A;
+  margin-left: 1rem;
+}
+
+.nav-item a:hover {
+  color: #E92569;
+}
+
+form .form-control {
+  border: none;
+  border-radius: 0;
+  position: relative;
+  left: 11px;
+}
+
+form .btn {
+  background: #E92569;
+  border: none;
+  color: #fff;
+}
+
+form .btn:hover {
+  background: #E92569;
+}
+
+.navbar-toggler {
+  color: #E92569;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Footer */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #767676;
+  margin: 4em 0 1em 0;
+}
+
+footer i {
+  font-size: 26px;
+  margin-right: 1rem;
+}
+
+/* Carousel */
+.carousel-item {
+  direction: rtl;
+}
+
+.carousel img {
+  min-width: 60em;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #E92569;
+  opacity: 1;
+}
+
+.carousel .carousel-indicators button {
+  background-color: #fff;
+  opacity: 1;
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0 .4em;
+}
+
+/* Description */
+.description-text {
+  color: #767676;
+  margin-bottom: 2em;
+}
+
+/* Tabs */
+.nav-tabs {
+  margin-top: 3em;
+}
+
+.nav-tabs .nav-link {
+  color: #E92569;
+}
+
+.tab-content {
+  background: #fff;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.tab-content p {
+  color: #767676;
+}
+
+.share-tab {
+  height: 7em;
+  width: 8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.share-tab p {
+  color: #0A0A0A;
+  font-size: 18px;
+  margin: 0;
+}
+
+.share-tab i {
+  font-size: 24px;
+}
+
+/* Accordion */
+.accordion {
+  -webkit-box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.accordion p {
+  color: #767676;
+}
+
+.accordion button {
+  color: #E92569;
+}
+
+.accordion button:not(.collapsed) {
+  color: #E92569;
+  border-bottom: 1px solid #E92569;
+}
+
+.accordion button::after {
+  display: none;
+}
+
+.accordion-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.accordion-body img {
+  margin: 1rem 0;
+}
+
+.share-accordion {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.share-accordion * {
+  padding: .8rem;
+}
+
+.share-accordion p {
+  color: #0A0A0A;
+  font-size: 18px;
+}
+
+.share-accordion i {
+  font-size: 24px;
+}
+
+/* Button groups */
+.btn-group {
+  margin: 1em 0 2em 0;
+}
+
+.btn-group .btn {
+  border: 1px solid #E92569;
+  color: #E92569;
+}
+
+.btn-group .active {
+  background-color: #E92569;
+  color: #fff;
+}
+
+/* Cards */
+.cards {
+  margin-bottom: 2em;
+}
+
+.card {
+  border: none;
+  margin-bottom: 3em;
+}
+
+.card p {
+  color: #767676;
+}
+
+.card .btn {
+  display: block;
+  margin: 0 auto !important;
+  border-radius: 5px;
+  background: #E92569;
+  color: #fff;
+  width: 100%;
+}
+
+.contact {
+  margin: 4em 0;
+}
+
+/* Details */
+.contact-details {
+  color: #767676;
+  margin-bottom: 3em;
+}
+
+.contact-details i {
+  margin-right: 1rem;
+  font-size: 24px;
+}
+
+/* Contact Form */
+.contact form {
+  color: #767676;
+}
+
+.contact form .form-group, .contact form .form-check {
+  margin-bottom: 1em;
+}
+
+.contact form .form-check input {
+  background: #E92569;
+  border: none;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form .btn {
+  background: #767676;
+  width: 100%;
+}
+
+.contact form .btn:hover {
+  color: #fff;
+  background: #E92569;
+}
+/*# sourceMappingURL=style.css.map */

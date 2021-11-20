@@ -1,0 +1,119 @@
+/* Carousel */
+
+.carousel-item{
+    direction: rtl;
+}
+
+.carousel img{
+    min-width: 60em;
+}
+
+.carousel .carousel-indicators .active{
+    background-color: $main;
+    opacity: 1;
+}
+
+.carousel .carousel-indicators button{
+    background-color: #fff;
+    opacity: 1;
+    height: 1.5em;
+    width: 1.5em;
+    margin: 0 .4em;
+}
+
+/* Description */
+
+.description-text{
+    color: $text-grey;
+    margin-bottom: 2em;
+}
+
+/* Tabs */
+
+.nav-tabs{
+    margin-top: 3em;
+}
+
+.nav-tabs .nav-link{
+    color: $main;
+}
+
+.tab-content{
+    background: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    @extend .shadow;
+    p{
+        color: $text-grey;
+    }
+}
+
+.share-tab{
+    height: 7em;
+    width: 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    p{
+        color: $text-black;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    i{
+        font-size: 24px;
+    }
+}
+
+/* Accordion */
+
+.accordion{
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.1);
+
+    p{
+        color: $text-grey;
+    }
+}
+
+.accordion button{
+    color: $main;
+
+    &:not(.collapsed){
+        color: $main;
+        border-bottom: 1px solid $main;
+    }
+
+    &::after{
+        display: none;
+    }
+}
+
+.accordion-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img{
+        margin: 1rem 0;
+    }
+}
+
+.share-accordion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    *{
+        padding: .8rem;
+    }
+
+    p{
+        color: $text-black;
+        font-size: 18px;
+    }
+
+    i{
+        font-size: 24px;
+    }
+}
